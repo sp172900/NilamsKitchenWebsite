@@ -1,0 +1,61 @@
+.App {
+  overflow: hidden;
+}
+
+.navBar {
+  background-color: midnightblue;
+  height: 0.6in;
+  align-items: center;
+  display: flex;
+}
+
+.navTabs {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.infoBox {
+  height: fit-content;
+  width: 300px;
+  background-color: midnightblue;
+  opacity: 0.8;
+  border-radius: 25px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-style: solid;
+  border-color: "#026b07";
+  border-width: 5px;
+}
+
+.Home {
+  background-image: url("./Images/home.JPG");
+  overflow: hidden; 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.About {
+  background: rgb(67,67,191);
+  background: linear-gradient(90deg, rgba(67,67,191,1) 13%, rgba(0,212,255,1) 100%);
+  overflow: hidden;
+}
+
+.Gallery {
+  background: rgb(67,67,191);
+  background: linear-gradient(90deg, rgba(67,67,191,1) 13%, rgba(0,212,255,1) 100%);
+  overflow: hidden;
+}
+
+.Contact {
+  background: rgb(67,67,191);
+  background: linear-gradient(90deg, rgba(67,67,191,1) 13%, rgba(0,212,255,1) 100%);
+  overflow: hidden;
+}
